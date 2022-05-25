@@ -21,6 +21,6 @@ spec:
     spec:
       containers:
       - name: bootcamp-html
-        image: serkantasci07/bootcamp:v$DOCKER_BUILD_NUMBER
+        image: bshregistrysrv:5000/cfollowapi:v$DOCKER_BUILD_NUMBER
         ports:
         - containerPort: 80

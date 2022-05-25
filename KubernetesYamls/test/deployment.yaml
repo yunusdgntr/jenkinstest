@@ -25,4 +25,4 @@ spec:
         ports:
         - containerPort: 80
       imagePullSecrets:
-      	- name: secret-key
+      - name: secret-key

@@ -24,3 +24,5 @@ spec:
         image: bshregistrysrv:5000/cfollowapi:v$DOCKER_BUILD_NUMBER
         ports:
         - containerPort: 80
+      imagePullSecrets:
+      	- name: secret-key
